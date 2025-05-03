@@ -1,6 +1,7 @@
 import { Schema, Document } from 'mongoose';
 import { BaseModel } from './base.model';
 
+
 export interface IWord extends Document {
     word: string;
     meaning: string;
